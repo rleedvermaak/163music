@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>music.163.com Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>music.163.com Downloader</h1>
+    <p>This small tool will give you a direct download link to MP3s from music.163.com. All you need to do is specify a song in the textbox below and click the download button.<br>
+    You can either use the song URL (like <nobr><code>http://music.163.com/#/song?id=1698432</code></nobr>) or directly enter the song ID (like <code>1698432</code>).</p>
+    <form action="download.php" method="get">
+        Song URL: <input id="song" name="song" type="text" placeholder="http://music.163.com/#/song?id=1698432" autofocus="true" size="75">
+        <input type="submit" value="Download">
+    </form>
+</body>
+</html>
